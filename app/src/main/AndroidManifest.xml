@@ -36,7 +36,6 @@
 
         <activity
             android:name=".HomePage"
-            android:label=" "
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

@@ -1,7 +1,10 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light"></style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#f66c67</item>
+        <item name="android:textColorPrimary">#fff</item>
+    </style>
 
     <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light">
         <!-- Customize your theme here. -->
@@ -9,7 +12,10 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.ActionBar" />
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorPrimary">#f66c67</item>
+        <item name="android:textColorPrimary">#fff</item>
+    </style>
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
