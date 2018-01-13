@@ -74,13 +74,6 @@ public class HomePage extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
     }
 
-    public void gotoSelection(View view){
-        if(mAuth.getCurrentUser()!=null)
-            startActivity(new Intent(this, Selection.class));
-        else
-            Toast.makeText(this, "Please Login first", Toast.LENGTH_SHORT).show();
-    }
-
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

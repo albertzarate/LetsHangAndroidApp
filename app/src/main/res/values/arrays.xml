@@ -1,0 +1,6 @@
+<resources>
+    <array name="preloaded_fonts">
+        <item>@font/rum_raisin</item>
+        <!-- add more preloaded fonts here -->
+    </array>
+</resources>
